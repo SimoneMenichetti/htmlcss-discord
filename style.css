@@ -22,9 +22,9 @@ a {
     padding: 7px 16px;
     font-size: 14px;
     font-weight: 700px;
-    
-    
 }
+
+
 
 /* rules header-nav */
 
@@ -72,36 +72,44 @@ a {
 
 /* rules lastcontent header */
 .jambocontainer{
+    padding: 130px ;
     display: flex;
-    align-items: center;
     justify-content: center;
     background-image: url(jumbo.png);
 	background-size: cover;
-	background-repeat: no-repeat;
-    position: relative;
-    
-    
-    
+	
 
 }
 
 
 .jambo{
-    background-color: rgb(160, 27, 109);
-    margin-top: 20px;
-    margin-bottom: 20px;
-    min-height: 300px;
-    width: 70%;
+    width: 65%;
+}
+
+.jambo > h1{
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.jambo p{
+    text-align: center;
+    font-size: 15px;
+    
 }
 
 .jumbocontainer .jambo {
-	min-height: 400px;
 	width: 40%;
 	color: white;
 }
 
 /* rules main section */
+.aboutdiscordcontenitor{
 
+width: 100%;
+margin: 0 auto;
+}
 .square-a{
 
     background-color: white;
@@ -121,14 +129,14 @@ a {
 .left{
     background-color: rgb(34, 235, 235);
     
-    min-width: 400px ;
+   width: 60%;
     height:200px;
 }
 
 .right{
     background-color: rgb(165, 105, 165);
-    min-width: 200px;
-    height:200px;
+    width: 40%;
+    min-height:200px;
 
 }
 
