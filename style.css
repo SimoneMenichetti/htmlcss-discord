@@ -2,7 +2,6 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    color: white;
     font-family:'Helvetica Neue', Helvetica, Arial,, sans-serif;
  
 }
@@ -21,8 +20,19 @@ a {
     border-radius: 40px;
     padding: 7px 16px;
     font-size: 14px;
-    font-weight: 700px;
+    margin-right: 10px;
 }
+
+.black{
+    color: #fff;
+    background-color: #23272a;
+    border-radius: 40px;
+    padding: 7px 16px;
+    font-size: 14px;
+    margin-left: 10px;
+    
+}
+
 
 i{
     font-size: 14px;
@@ -78,6 +88,7 @@ i{
 
 /* rules lastcontent header */
 .jambocontainer{
+    color: #fff;
     padding: 130px ;
     display: flex;
     justify-content: center;
@@ -99,10 +110,8 @@ i{
 	margin-bottom: 50px;
 }
 
-.jambo p{
+.jambo, p .asidelink{
     text-align: center;
-    font-size: 15px;
-    
 }
 
 .jumbocontainer .jambo {
@@ -110,12 +119,29 @@ i{
 	color: white;
 }
 
+.asidelink{
+    padding-top: 20px;
+}
 /* rules main section */
 .aboutdiscordcontenitor{
-
+color:black;
 width: 100%;
 margin: 0 auto;
 }
+/* general rules img left text right */
+.left{
+    
+    
+    width: 60%;
+     height:200px;
+ }
+ 
+ .right{
+      
+     width: 40%;
+     min-height:200px;
+ 
+ }
 .square-a{
 
     background-color: white;
@@ -131,20 +157,8 @@ margin: 0 auto;
 
 /* display flex square a-b */
 
-/* debug */
-.left{
-    background-color: rgb(34, 235, 235);
-    
-   width: 60%;
-    height:200px;
-}
 
-.right{
-    background-color: rgb(165, 105, 165);
-    width: 40%;
-    min-height:200px;
 
-}
 
 .left, .right{
 
