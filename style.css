@@ -6,7 +6,9 @@
 }
 
 /* rules general webpage */
-
+ul{
+    list-style: none;
+}
 a {
     text-decoration: none;
 }
@@ -219,6 +221,7 @@ i   {
 	font-size: 15px;
 	margin: 0 40px;
 	text-align: center;
+    width: calc(100% / 3);
 }
 
 /* star img */
@@ -233,66 +236,99 @@ i   {
 /* rules footer */
 
 .container-column{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color:  #23272a;
+    background-color: #23272a;
+    padding: 10px;
+}
+.footer-main {
+	padding-top: 10px;
+	background-color: #23272a;
+}
+
+.footer-upper {
+	display: flex;
+	padding-bottom: 50px;
+	margin-bottom: 20px;
+	
+}
+
+.footer-main-col {
+	width: calc(100% / 3);
+}
+.footer-main-col > h1{
+	color: #7188d6;
+	font-weight: bold;
+	font-size: 30px;
+	margin: 20px 40px 20px 40px;
+}
+.lang > img {
+	height: 20px;
+}
+.lang{
+	color: white;
+	margin: 0 40px;
+}
+.socials{
+	margin: 30px 40px;
+	color: white;
+}
+.socials > i{
+	padding-right: 20px;
+}
+
+.footer-product{
+	padding: 0 40px;
+}
+.footer-product > ul > li{
+	padding-bottom: 25px;
     
 }
-
-.column-big , .column {
-
-    min-height: 300px;
-    
+.footer-product > ul > li > a{
+	color: white;
+	text-decoration: none;
+    font-size: 10px;
 }
 
-.column-big {
-
-    min-width: 200px;
-    background-color: rgb(195, 84, 65);
+.footer-side-col {
+	display: flex;
+	width: calc(100% / 3 * 2);
+}
+.footer-col > h1{
+	margin: 20px  0 20px 40px;
+	color: #7188d6;
+	font-weight: bold;
+    font-size: 20px;
 }
 
-.column {
+.footer-col {
+	margin-top: 15px;
+	width: 25%;
+}
+
+.footer-bottom {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+.footer-bottom > * {
+	padding: 5px 0px 20px 0px;
+}
+
+
+.footer-col {
 
     min-width: 100px;
-    background-color: rgb(6, 93, 60);
+    background-color: #23272a;
 }
 
 
 hr {
-    color: white;
+    color:#8ea2e1;
 }
 
-.button-endrow{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-   
-  
-    /* debug rules */
-    min-height: 50px;
-   background-color:  #23272a;
-    
-}
 
-.logofooter, .bottonfooter{
-   
-}
 
- .logofooter{
-    min-height: 20px;
-    width: 40px;
-    background-color: salmon;
-    text-align: left;
-}
-
-.bottonfooter{
-    min-height: 20px;
-    width: 40px;
-    background-color: salmon;
-    text-align: right
-
-}
 
 
 
