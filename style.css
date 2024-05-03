@@ -13,8 +13,8 @@ a {
 /* rules botton general*/
 
 
-.white, i{
-    color: #23272a;
+.white {
+    color:black;
     background-color: #fff;
     border-radius: 40px;
     padding: 7px 16px;
@@ -32,10 +32,20 @@ a {
     
 }
 
-
-i{
+.lightblue {
+    color: #fff;
+    background-color: #8ea2e1;
+    border-radius: 40px;
+    padding: 7px 16px;
     font-size: 14px;
-    font-family: Arial, Helvetica, sans-serif;
+    text-align:center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+i   {
+    font-size: 14px;
     text-align: center;
 }
 
@@ -191,13 +201,33 @@ i{
     font-size: 15px;
     
 }
-
-
-
+/* rules bigimg section */
 .bigblock{
-    background-color: green;
-    min-width: 600px;
-    min-height: 400px;
+	flex-grow: 1;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center
+}
+.bigblock > h1{
+	font-weight: bold;
+	font-size: 30px;
+	padding: 20px 0;
+	text-align: center;
+}
+.bigblock > p{
+	font-size: 15px;
+	margin: 0 40px;
+	text-align: center;
+}
+
+/* star img */
+
+.star {
+    background-image: url(./img/stars.svg);
+    background-repeat: no-repeat;
+    height: 50px;
+    padding: 30px;
 }
 
 /* rules footer */
@@ -206,14 +236,14 @@ i{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: black;
-    padding: 10px;
+    background-color:  #23272a;
+    
 }
 
 .column-big , .column {
 
     min-height: 300px;
-    border: white 1px dotted;
+    
 }
 
 .column-big {
@@ -241,12 +271,12 @@ hr {
   
     /* debug rules */
     min-height: 50px;
-    background-color: rgb(0, 10, 0);
-    border: white 1px dotted;
+   background-color:  #23272a;
+    
 }
 
 .logofooter, .bottonfooter{
-    border: white 1px dotted;
+   
 }
 
  .logofooter{
@@ -261,7 +291,10 @@ hr {
     width: 40px;
     background-color: salmon;
     text-align: right
-  
 
 }
+
+
+
+
 
