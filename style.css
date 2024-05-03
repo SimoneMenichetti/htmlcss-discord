@@ -2,8 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-family:'Helvetica Neue', Helvetica, Arial,, sans-serif;
- 
+    font-family: "Open Sans", sans-serif;
 }
 
 /* rules general webpage */
@@ -89,7 +88,7 @@ i{
 /* rules lastcontent header */
 .jambocontainer{
     color: #fff;
-    padding: 130px ;
+    padding: 100px ;
     display: flex;
     justify-content: center;
     background-image: url(jumbo.png);
@@ -124,48 +123,13 @@ i{
 }
 /* rules main section */
 .aboutdiscordcontenitor{
-color:black;
-width: 100%;
-margin: 0 auto;
-}
-/* general rules img left text right */
-.left{
-    
-    
-    width: 60%;
-     height:200px;
- }
- 
- .right{
-      
-     width: 40%;
-     min-height:200px;
- 
- }
-.square-a{
-
-    background-color: white;
-    width:100%;
-}
-
-.square-b {
-
-    background-color: lightgrey;
+    color:black;
     width: 100%;
+    margin: 0 auto;
+   
 }
-
 
 /* display flex square a-b */
-
-
-
-
-.left, .right{
-
-    border: dotted 1px black;
-    min-height: 300px;
-    
-}
 .square-a, .square-b{
     /* min-height: 400px; */
     display: flex;
@@ -173,6 +137,62 @@ margin: 0 auto;
     
     margin-top: 20px;
 }
+
+.square-a .left{
+    width: 60%;
+    margin-right: 50px;
+    
+ }
+
+/* general rules square a (img left text right) */
+ 
+ .square-a .right{
+    width: 40%;
+     flex-basis: 0;
+ }
+
+.square-a .right > h1{
+    font-size: 30px;
+	margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.square-a .right p{
+    font-size: 15px;
+    
+}
+.square-a{
+
+    background-color: white;
+    width:100%;
+}
+
+/* rules square b (img right text left) */
+.square-b {
+
+    background-color: lightgrey;
+    width: 100%;
+}
+
+.square-b .left{
+    width: 40%;
+     flex-basis: 0;
+     
+     
+ }
+
+.square-b .left > h1{
+    font-size: 30px;
+	margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.square-b .left p{
+    font-size: 15px;
+    
+}
+
+
 
 .bigblock{
     background-color: green;
