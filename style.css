@@ -138,6 +138,8 @@ i {
     color:black;
     width: 100%;
     margin: 0 auto;
+    
+
    
 }
 
@@ -184,7 +186,8 @@ i {
 
     background-color: lightgrey;
     width: 100%;
-}
+   
+}  
 
 .square-b .left{
     width: 40%;
@@ -325,11 +328,6 @@ i {
 hr {
     color:#8ea2e1;
 }
-
-
-
-
-
 
 
 
