@@ -46,7 +46,7 @@ a {
     
 }
 
-i   {
+i {
     font-size: 14px;
     text-align: center;
 }
@@ -317,7 +317,6 @@ i   {
 
 
 .footer-col {
-
     min-width: 100px;
     background-color: #23272a;
 }
